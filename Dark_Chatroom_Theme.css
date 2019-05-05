@@ -1,0 +1,177 @@
+/* Chatlog.css v1.0
+   Okie dokie I'm tired. Anything without a warning against modification, you're free to experiment with
+   Please use W3 schools for properties you're not familiar with
+   Feel free to message me for help
+
+*/
+
+body {
+  font-family: "Munro"
+ 
+  background-color: #d9d9d9;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width:100%;
+}
+
+.bodybox p{ /*AO3 likes adding extra p tags DO NOT MODIFY THIS or your bubbles will look bigger than necessary */
+	display:inline;
+}
+
+
+.bodybox h2{
+	color:white;
+	display:inline-block;
+	font-size:25px;
+}
+
+ hr{
+	 width:100%
+ }
+
+
+.bodybox {
+  margin:auto;
+  width: 450px;
+  max-width: 450px;    /* I DO NOT RECOMMEND CHANGING, YOU'VE BEEN WARNED*/
+  background-color: black;
+  
+  padding-top: 50px;
+  padding-bottom: 5px;
+  padding-right: 25px;
+  padding-left: 25px;
+  box-shadow: 5px 5px 5px grey;
+  border-radius: 15px;
+  height:auto;           /* I DO NOT RECOMMEND CHANGING, YOU'VE BEEN WARNED*/
+  display:inline-block;  /* I DO NOT RECOMMEND CHANGING, YOU'VE BEEN WARNED*/
+}
+
+.chatborder {
+  border-color: white;      
+  border-style: solid;
+  background-color:black;
+  border-width: 3px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  padding-left: 15px;
+  border-radius: -25px;
+  
+  overflow: auto;     /* I DO NOT RECOMMEND CHANGING, YOU'VE BEEN WARNED*/ 
+}
+
+.chatlog  {
+  font: 25px "Munro";
+  color:white; /* changes font color*/
+  padding-bottom:5px; /*Changing padding will add space between text and box*/
+  padding-top:10px;
+  max-width: 95%;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+  font-size: 25px;
+  text-align: left;     /* */
+  clear:both	;         /* I DO NOT RECOMMEND CHANGING, YOU'VE BEEN WARNED*/
+  float:left;         /*I DO NOT RECOMMEND CHANGING, YOU'VE BEEN WARNED*/
+  border-radius:15px; /*Change this to make chat bubbles more rounded or square*/
+  height: auto;            
+ word-wrap: break-word;  /* I DO NOT RECOMMEND CHANGING, YOU'VE BEEN WARNED*/
+
+  
+
+
+}
+
+
+.chatlog:hover{         /*Css Selector: When user hovers over chatlog divs; */
+	background-color:red;   /*changes color on hover */
+}
+
+
+.chatlog1{ 
+  background-color:#1a1a1a;
+}
+
+.chatlog2{
+  background-color:#121212;
+  }
+
+.green{   /* GREEN USERNAME OR TEXT */
+    color:#26c450;
+  }
+
+.purple{   /* PURPLE USERNAME OR TEXT */
+    color:#af71f2;
+  }
+.pink {    /* PINK USERNAME OR TEXT */
+	color: #eb94c4;
+	
+}
+.orange {    /* ORANGE USERNAME OR TEXT */
+	color: #ed8a18;
+}
+  
+.blue{     /* BLUE USERNAME OR TEXT */
+    color:#3a78e3;
+}
+
+.yellow{   /* YELLOW USERNAME OR TEXT */
+    
+color:#e8e17e;
+}
+
+.red{     /* RED USERNAME OR TEXT */
+ color: #ff5552;	
+	
+}
+
+.sys {  /*This is for messages such as "X has been banned from group"*/
+  color:white;     		                  /*font-color*/
+  font-style:italic;  		              /*text is italicized --idk how to spell lol--*/
+  text-align:center; 		                /*text goes in center*/
+  font-family: "Munro", sans-serif;      /* any font. Users must have it installed on their end though. */ 
+  font-size: 25px;
+  margin-bottom: 10px;    
+  clear:left;
+}
+
+.tool-tip{    /* Relevant only to my story, ignore or delete <3 */
+  background: black;
+  width:300px;
+  border-radius: 15px;
+}
+
+.mention {  /* similar to discord mentions */
+ background-color:  rgba(0, 55, 75,0.8);  /* rgb is for red green blue values. Last value is to change opacity */ 
+ padding-top: 2px;                     
+ padding-bottom: 2px;
+ padding-left: 4px;
+ padding-right: 4px;
+ color:white;                             /*color of text*/
+ border-radius: 5px;                      /*gives rounded edge*/
+ font-size: 25px;                         /*font size*/
+}
+
+
+.attach  {  /*For attaching images */
+	
+	color: red;
+	display: block;        /* makes it so no text appears next to images, only above and below*/
+	height:200px;          /*Height, feel free to change */
+	max-width:400px;
+	border-radius: 10px;   /*Gives image rounded corners. Higher the number, the more round*/
+	padding:3px 3px 3px 3px;
+}
+
+.emoji{
+width: 2em;             /* I DO NOT RECOMMEND CHANGING, YOU'VE BEEN WARNED*/
+height: 2em;            /* I DO NOT RECOMMEND CHANGING, YOU'VE BEEN WARNED*/
+vertical-align:middle;  /* I DO NOT RECOMMEND CHANGING, YOU'VE BEEN WARNED*/
+display:inline-block;   /* I DO NOT RECOMMEND CHANGING, YOU'VE BEEN WARNED*/
+}
+
+
